@@ -1,0 +1,101 @@
+@import "../../../../css/util/media";
+@import "../../../../css/util/interface";
+@import "../../../../css/fonts/index";
+
+#generalInfo
+{
+  width: auto;
+  @include bgImages("/static/images/background/Image22.png");
+  min-height: 117vw;
+  &:before
+  {
+    content: "доступные материалы с учётом доставки";
+    width: 65%;
+    background-position: center;
+    height: 5.8vw;
+    color: #FFFFFF;
+    font-size: 3vw;
+    @include display(row, wrap, center,center,center);
+    @include bgImages("/static/images/site/pseudo.png");
+    margin-left: 15%;
+  }
+  .trueInfo
+  {
+    align-self: stretch;
+    .button
+    {
+      text-align: center;
+      padding-bottom: 2vw;
+      font-size: 1.7vw;
+      a
+      {
+        font-size: 1.7vw;
+        flex-grow:1;
+      }
+    }
+    p
+    {
+      font-size: 2.7vw;
+      margin: 0;
+      color: whitesmoke;
+    }
+  }
+  .services
+  {
+    @include display(column, wrap, flex-start, flex-start, stretch);
+    align-self: unset;
+    width: 100%;
+    section{
+      @include button(1, 1.05vw, 9.5vw,#945D25,0.5rem);
+      @include fonts(Calibri,2.5vw,1.5,200,#945D25,justify);
+      margin: 0;
+    }
+    img {
+      padding-bottom: 0.5vw;
+      padding-top: 0.5vw;
+      $width: 3vw;
+      @include media(width, 0, 0, 0, $width, $width, $width, $width, $width, $width, $width);
+      margin: auto;
+    }
+    h3
+    {
+
+      font-size: 3vw;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      color: whitesmoke;
+      @include media(h3,Calibri,#FFFFFF,1,4.2vw,4.2vw,4.2vw,4.2vw,4.2vw,4.2vw,4.2vw);
+    }
+  }
+  .info
+  {
+    background: rgba(0, 0, 0, 0.5);
+    section{
+      background-color: transparent;
+    }
+    h3{
+      font-size: 4vw;
+      margin: 0;
+      color: white;
+      text-align: center;
+
+      height: 8vw;
+
+    display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  .news{
+    p{
+      margin-top: 1.4vw;
+      margin-bottom: 1vw;
+    }
+    font-size: 3vw;
+    color: white;
+  }
+}

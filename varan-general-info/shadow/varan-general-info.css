@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url(open-sans/css/open-sans.css);
+@import url(CTCSplashRounded/css/CTCSplashRounded.css);
+@import url(Lato/css/lato.css);
+@import url(roboto/css/roboto.css);
+#generalInfo {
+  width: auto;
+  background: url("/static/images/background/Image22.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  min-height: 117vw; }
+  #generalInfo:before {
+    content: "доступные материалы с учётом доставки";
+    width: 65%;
+    background-position: center;
+    height: 5.8vw;
+    color: #FFFFFF;
+    font-size: 3vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background: url("/static/images/site/pseudo.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
+    margin-left: 15%; }
+  #generalInfo .trueInfo {
+    align-self: stretch; }
+    #generalInfo .trueInfo .button {
+      text-align: center;
+      padding-bottom: 2vw;
+      font-size: 1.7vw; }
+      #generalInfo .trueInfo .button a {
+        font-size: 1.7vw;
+        flex-grow: 1; }
+    #generalInfo .trueInfo p {
+      font-size: 2.7vw;
+      margin: 0;
+      color: whitesmoke; }
+  #generalInfo .services {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+    align-self: unset;
+    width: 100%; }
+    #generalInfo .services section {
+      display: inline-block;
+      padding: 1.05vw 9.5vw;
+      text-decoration: none;
+      cursor: pointer;
+      background: #945D25;
+      border-radius: 0.5rem;
+      border: 1px solid #945D25;
+      align-self: center;
+      margin: 0;
+      font-family: "Calibri", "Open Sans Regular", sans-serif;
+      font-size: 2.5vw;
+      line-height: 1.5;
+      font-weight: 200;
+      color: #945D25;
+      text-align: justify;
+      margin: 0; }
+      #generalInfo .services section a {
+        color: white;
+        text-decoration: none; }
+    #generalInfo .services img {
+      padding-bottom: 0.5vw;
+      padding-top: 0.5vw;
+      margin: auto; }
+      @media only all and (max-width: 479px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 480px) and (max-width: 767px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 768px) and (max-width: 991px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 992px) and (max-width: 1199px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 1200px) and (max-width: 1440px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 1441px) and (max-width: 1920px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+      @media all and (min-width: 1920px) {
+        #generalInfo .services img {
+          width: 3vw; } }
+    #generalInfo .services h3 {
+      font-size: 3vw;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      color: whitesmoke; }
+  #generalInfo .info {
+    background: rgba(0, 0, 0, 0.5); }
+    #generalInfo .info section {
+      background-color: transparent; }
+    #generalInfo .info h3 {
+      font-size: 4vw;
+      margin: 0;
+      color: white;
+      text-align: center;
+      height: 8vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+  #generalInfo .news {
+    font-size: 3vw;
+    color: white; }
+    #generalInfo .news p {
+      margin-top: 1.4vw;
+      margin-bottom: 1vw; }
+
+/*# sourceMappingURL=varan-general-info.css.map */
