@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>main</title>
+</head>
+<body>
+<main>
+    <template class="general-info">
+        <section id="generalInfo">
+            <section><slot name="varan-slider-product"></slot></section>
+            <div class= "services">
+                <section><a href= "/material" >весь ассортимент</a></section>
+                <img src="./../../../static/images/slider/page1_slider2_arrow(1-1).svg" alt= "information" />
+            </div>
+            <div class= "info">
+                <h3>НАШИ УСЛУГИ:</h3>
+                <section><slot name="varan-slider-info"></slot></section>
+            </div>
+            <div class="news">
+                <p>ПОЛЕЗНАЯ ИНФОРМАЦИЯ</p><hr>
+                <section><slot name="varan-slider-news"></slot></section>
+            </div>
+        </section>
+    </template>
+</main>
+</body>
+</html>
